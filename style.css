@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	font-family: Arial;
+	border: border-box;
+}
+
+.navbar{
+	height: 100px;
+	background-color: #90D5FF;
+	color: black;
+	display: flex;
+	align-items: center;
+}
+
+.nav-logo{
+	height: 100px;
+	width: 100px;
+}
+.add-icon{
+	font-size: 25px;
+}
+.logo{
+	background-image: url("dronarjuna2.PNG");
+	background-size:cover;
+	position: absolute;
+	left: 5px;
+	height: 100px;
+	width: 200px;
+}
+
+.outside{
+	border: 2px solid transparent;
+}
+
+.outside:hover {
+	border:3px solid white ;
+	width: 200px;
+	height: 99px;
+}
+
+/** box2 **/
+
+.one{
+	color: #3f3f3f;
+	font-size: 1.25rem;
+	position: absolute;
+	left: 255px;
+	top:25px;
+
+}
+.sec{
+	color: black;
+	font-size: 1.5rem;
+	}
+.add-icon{
+	display: flex;
+	position: absolute;
+	left: 255px;
+	top:50px;
+
+	
+}
+.nav-search{
+	display: flex;
+	justify-content: space-evenly;
+	position: absolute;
+	left: 430px;
+	top:25px;
+}
+.crazy{
+	width: 620px;
+	height: 40px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border: none;
+}
+.class1{
+	position: absolute;
+	left: 405px;
+}
+.all{
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-right-color: black;
+	width: 50px;
+}
+.search-icon{
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	background-color: #000080;
+	color: white;
+	border-radius: 10px;
+}
+.outline{
+		border: 2px solid transparent;
+}
+.outline:hover {
+	border:3px solid black ;
+}
+.outline1{
+		border: 2px solid transparent;
+}
+.outline1:hover {
+	border:3px solid white ;
+}
+.nav-signin{
+	position: absolute;
+	left:1200px;
+	font-size: 15px;
+}
+.orders{
+	position: absolute;
+	left:1375px;
+}
+
+.panel{
+	height: 40px;
+	background-color: #001f3d;
+	display: flex;
+	color: white;
+	align-items: center;
+    justify-content: space-evenly;
+}
+.panel-opt p {
+	display: inline;
+	color: white;
+}
+.panel-opt{
+	width: 700px;
+	position: absolute;
+	left: 85px;
+	word-spacing:25px;
+
+}
+.panel-all{
+position: absolute;
+left: 10px;
+}
+.us{
+	position: absolute;
+	right: 30px;
+	word-spacing: 25px;
+}
+.lease{
+	word-spacing: 2.5px;
+}
+.hire{
+	word-spacing: 2.5px;
+}
+.us p{
+	display:inline;
+}
+.about{
+	word-spacing: 2.5px;
+}
+.contact{
+	word-spacing: 2.5px;
+}
+.about1{
+	background-color: black;
+}
+
+.foot_panel1
+	background-color:#001f3d ;
+}
+.hero-section{
+	background-image: url(dr_pic.jpg);
+	height: 600px;
+	background-size: cover;
+}
+.main .hem{
+	height: 100px;
+}
