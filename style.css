@@ -107,10 +107,17 @@
 	border:3px solid white ;
 }
 .nav-signin{
-	position: absolute;
+	position: relative;
 	left:1200px;
 	font-size: 15px;
-}
+		
+	  position: static;
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
 .orders{
 	position: absolute;
 	left:1375px;
@@ -142,7 +149,7 @@ left: 10px;
 .us{
 	position: absolute;
 	right: 30px;
-	word-spacing: 25px;
+	word-spacing: 5px;
 }
 .lease{
 	word-spacing: 2.5px;
@@ -150,8 +157,28 @@ left: 10px;
 .hire{
 	word-spacing: 2.5px;
 }
-.us p{
+.us a{
 	display:inline;
+	background-color:#001f3d
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.us:hover {
+	background-color: #001f3d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 .about{
 	word-spacing: 2.5px;
@@ -174,3 +201,104 @@ left: 10px;
 .main .hem{
 	height: 100px;
 }
+.hiredrones{
+	display:inline;
+	background-color:#001f3d
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    word-spacing: 5px;
+}
+.hh{
+	color: white;
+	text-decoration: none;
+}
+
+.hiredrones:hover {
+	background-color: #001f3d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.leasedrones{
+	display:inline;
+	background-color:#001f3d
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    word-spacing: 5px;
+}
+.jj{
+	color: white;
+	text-decoration: none;
+}
+
+.leasedrones:hover {
+	background-color: #001f3d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buydrones{
+	display:inline;
+	background-color:#001f3d
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    word-spacing: 5px;
+    left: 10px;
+}
+.kk{
+	color: white;
+	text-decoration: none;
+}
+.buydrones:hover {
+	background-color: #001f3d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.nav-signin-login
+{
+	display: flex;
+	justify-content: right;
+	margin-left: auto;
+	background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-right: 175px;
+           
+5
